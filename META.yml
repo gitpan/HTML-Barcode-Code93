@@ -1,0 +1,31 @@
+---
+abstract: 'Generate HTML representations of Code 93 barcodes'
+author:
+  - 'Mark A. Stratman, C<< <stratman@gmail.com> >>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 1.01'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: HTML-Barcode-Code93
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Any::Moose: 0.15
+  Barcode::Code93: 0.02
+  HTML::Barcode: 0.09
+resources:
+  homepage: http://github.com/mstratman/HTML-Barcode-Code93/tree
+  license: http://dev.perl.org/licenses/
+  repository:
+    type: git
+    url: git://github.com/mstratman/HTML-Barcode-Code93.git
+    web: http://github.com/mstratman/HTML-Barcode-Code93/tree
+version: 0.09
