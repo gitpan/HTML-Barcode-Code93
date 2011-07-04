@@ -17,6 +17,7 @@ no_index:
   directory:
     - inc
     - t
+    - xt
 requires:
   Any::Moose: 0.15
   Barcode::Code93: 0.02
@@ -28,4 +29,4 @@ resources:
     type: git
     url: git://github.com/mstratman/HTML-Barcode-Code93.git
     web: http://github.com/mstratman/HTML-Barcode-Code93/tree
-version: 0.09
+version: 0.10

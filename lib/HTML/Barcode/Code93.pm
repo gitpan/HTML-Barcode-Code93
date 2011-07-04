@@ -3,7 +3,7 @@ use Any::Moose;
 extends 'HTML::Barcode::1D';
 use Barcode::Code93;
 
-our $VERSION = '0.09';
+our $VERSION = '0.10';
 
 has '_code93' => (
     is      => 'ro',
@@ -106,6 +106,13 @@ classes applied to them.
 
 For example, if css_class is "barcode", you will get C<< <table class="barcode"> >> and its cells will be either C<< <td class="barcode_on"> >> or
 C<< <td class="barcode_off"> >>.
+
+=head2 embed_style
+
+Rather than rendering CSS stylesheets, embed the style information
+in HTML C<style> attributes.  You should not use this option without
+good reason, as it greatly increases the size of the generated markup,
+and makes it impossible to override with stylesheets.
 
 =head1 AUTHOR
 
