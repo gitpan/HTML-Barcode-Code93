@@ -3,7 +3,7 @@ use Any::Moose;
 extends 'HTML::Barcode::1D';
 use Barcode::Code93;
 
-our $VERSION = '0.10';
+our $VERSION = '0.11';
 
 has '_code93' => (
     is      => 'ro',
@@ -26,7 +26,7 @@ HTML::Barcode::Code93 - Generate HTML representations of Code 93 barcodes
 
 =head1 DESCRIPTION
 
-This class allows you easily create HTML representations of Code 93 barcodes.
+This class allows you to easily create HTML representations of Code 93 barcodes.
 
 =begin html
 
