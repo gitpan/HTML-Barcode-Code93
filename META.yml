@@ -25,10 +25,6 @@ requires:
   Barcode::Code93: 0.02
   HTML::Barcode: 0.09
 resources:
-  homepage: https://github.com/mstratman/HTML-Barcode-Code93/tree
   license: http://dev.perl.org/licenses/
-  repository:
-    type: git
-    url: git://github.com/mstratman/HTML-Barcode-Code93.git
-    web: https://github.com/mstratman/HTML-Barcode-Code93/tree
-version: 0.11
+  repository: git://github.com/mstratman/HTML-Barcode-Code93.git
+version: 0.12
